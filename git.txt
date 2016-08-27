@@ -1,0 +1,19 @@
+git项目地址：https://github.com/dykdykdyk/ 
+用户名：1825041608@qq.com 密码：dyk19921219
+
+
+
+git clone XX  
+
+进入XX目录：本地修改
+
+git status
+
+git add --all 
+
+git commit -m "first command"
+
+git push 
+
+
+（如果是第一次提交，需要 git push origin master）
