@@ -16,4 +16,6 @@ git commit -m "first command"
 git push 
 
 
+
+如果是有的文件夹提交之后，在git远程仓库里面看不到，需要注意看一下 .ignore
 （如果是第一次提交，需要 git push origin master）
