@@ -1,0 +1,41 @@
+新建一个项目：cordova create hello(项目名)
+cd hello 
+cordova platform add android(添加Android平台)
+
+
+环境搭建：
+1.已经安装好了Android开发环境，已经安装了node.js 
+
+安装使用 淘宝 NPM 镜像 方式
+1.运行cmd以管理员身份运行，输入命令
+    npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+2. 安装完成后，输入
+    cnpm install -g cordova
+
+
+
+
+cordova platforms add android
+
+cordova plugin add C:\Users\Administrator\Desktop\mobile\plugin\ustone-plugin-call 添加插件命令
+
+cordova platform update android 更新命令...
+
+cordova plugin remove ustone-plugin-call
+
+
+cordova plugin add cordova-plugin-geolocation
+
+cordova plugin add C:\Users\Administrator\Desktop\mobile\plugin\ustone-plugin-call
+cordova plugin add C:\Users\Administrator\Desktop\mobile\plugin\ustone-plugin-blecentral
+cordova plugin add C:\Users\Administrator\Desktop\mobile\plugin\ustone-plugin-camera
+cordova plugin add C:\Users\Administrator\Desktop\mobile\plugin\ustone-plugin-flashshot
+cordova plugin add C:\Users\Administrator\Desktop\mobile\plugin\ustone-plugin-imagepicker
+cordova plugin add C:\Users\Administrator\Desktop\mobile\plugin\ustone-plugin-mediarecorder
+cordova plugin add C:\Users\Administrator\Desktop\mobile\plugin\ustone-plugin-sdkshare
+cordova plugin add C:\Users\Administrator\Desktop\mobile\plugin\ustone-plugin-selfie
+cordova plugin add C:\Users\Administrator\Desktop\mobile\plugin\ustone-plugin-soundrecorder
+cordova plugin add C:\Users\Administrator\Desktop\mobile\plugin\ustone-plugin-update
+cordova plugin add C:\Users\Administrator\Desktop\mobile\plugin\ustone-plugin-virtualcall
+cordova plugin add C:\Users\Administrator\Desktop\mobile\plugin\ustone-plugin-wifi

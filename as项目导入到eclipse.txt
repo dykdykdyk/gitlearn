@@ -1,0 +1,15 @@
+手工改,
+1.在eclipse 上新建一个空的项目;
+2.点击android studio 中的android 视图,
+        a.替换as 中的AndroidManifest.xml -> eclipse 中的AndroidManifest.xml;
+        b.替换as 中java 目录下源文件 -> eclipse 中的src 目录下的源文件;
+        c.替换as 中res 目录下资源文件 -> eclipse 中的res 目录下;
+        d.copy as中jniLibs 中的目录 -> eclipse 中的libs 目录下;
+        e.copy as中assets 中的目录 -> eclipse 中的assets 目录下;
+3.alt + enter, 选择sdk api 版本;
+4.eclipse 右键 -> android tools -> fix ,eclipse -> project -> clean project即可
+
+
+1.关于公司项目，库导入出现的问题，在api>14后，就可以直接把support v7包删除掉。
+2.Android 别人项目的<application 里面的.>注意仔细看。
+3.混淆问题，记得看下build里面的配置buildTypes需要写在外面,不然的话，有可能程序没有执行到混淆的代码。

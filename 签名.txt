@@ -1,0 +1,2 @@
+C:\Program Files\Java\jdk1.8.0_31\bin>jarsigner -verbose -keystore D:\test\.keystore -signedjar aa.apk C:\Users\Administrator\Desktop\aa.apk demo.keys
+tore

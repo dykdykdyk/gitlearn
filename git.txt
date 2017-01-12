@@ -1,7 +1,7 @@
 git项目地址：QAQ
 用户名：18250 密码：你懂的
 
-
+如果卡在writing :试一下这个：git config --global http.postBuffer 524288000
 
 git clone XX  
 
@@ -9,15 +9,20 @@ git clone XX
 
 git status
 
-git add --all 
+git add . (git add --all)
+
 
 git commit -m "first command"
 
 git push 
 
-
+https://github.com/dykdykdyk/CoapTest.git
 
 如果是有的文件夹提交之后，在git远程仓库里面看不到，需要注意看一下 .ignore
 （如果是第一次提交，需要 git push origin master）
 
 如果有的时候文件夹提交上去之后 打开为空或者报红可能是文件名有冲突，换一个文件名试试 
+
+
+
+https://github.com/dykdykdyk/CoapTest.git
