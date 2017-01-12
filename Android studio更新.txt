@@ -1,35 +1,25 @@
-°ÑÁ¬½ÓÒ»¸öµÄËùÓĞµÄÊı¾İ È«²¿¶¼±£´æ,´¦ÀíÍê³É¡£
+æŠŠè¿æ¥ä¸€ä¸ªçš„æ‰€æœ‰çš„æ•°æ® å…¨éƒ¨éƒ½ä¿å­˜,å¤„ç†å®Œæˆã€‚
 
 
 
-¸üĞÂwww.
-1.ĞŞ¸ÄAndroidÏîÄ¿µÄÁ½¸öjdk¶¼¸Ä1.7
-2.´ò¿ªAndroidManifest.xmlÎÄ¼ş£¬É¾³ıÏÂÃæµÄ ¡¶application¡·¡£
-3.ÒÆ³ıLibMarsdaemon¿â£¬ÖØĞÂµ¼Èë£¬È»ºóÌí¼Óµ½AndroidµÄÒÀÀµ¿â¡£
-4.ÔÚÅäÖÃÎÄ¼ş ÖØĞÂÌí¼Ó»ìÏı
+æ›´æ–°www.
+1.ä¿®æ”¹Androidé¡¹ç›®çš„ä¸¤ä¸ªjdkéƒ½æ”¹1.7
+2.æ‰“å¼€AndroidManifest.xmlæ–‡ä»¶ï¼Œåˆ é™¤ä¸‹é¢çš„ ã€Šapplicationã€‹ã€‚
+3.ç§»é™¤LibMarsdaemonåº“ï¼Œé‡æ–°å¯¼å…¥ï¼Œç„¶åæ·»åŠ åˆ°Androidçš„ä¾èµ–åº“ã€‚
+4.åœ¨é…ç½®æ–‡ä»¶ é‡æ–°æ·»åŠ æ··æ·†
 buildTypes {
     release {
       minifyEnabled true
-      // »ìÏıÎÄ¼şµÄÎ»ÖÃ
+      // æ··æ·†æ–‡ä»¶çš„ä½ç½®
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
     }
 }
-    task nativeLibsToJar(type: Zip, description: "create a jar archive of the native libs") {
-      destinationDir file("$projectDir/libs")
-      baseName "Native_Libs2"
-      extension "jar"
-      from fileTree(dir: "libs", include: "**/*.so")
-      into "lib"
-    }
- 
-
-
-          peripheral.m_cmdItemAlert = 0;
+     peripheral.m_cmdItemAlert = 0;
               if (peripheraltemp.isConnected()) {
 //                peripheral.disConnectDeviceAlert(1, 1);
 //                peripheral.closeConnection();
 
-android.os.Build.MODEL ÏµÍ³ĞÍºÅ ATH-AL00
-android.os.Build.VERSION.SDK  api°æ±¾ºÅ 22
-android.os.Build.VERSION.RELEASE   ÏµÍ³°æ±¾ºÅ 6.0
+android.os.Build.MODEL ç³»ç»Ÿå‹å· ATH-AL00
+android.os.Build.VERSION.SDK  apiç‰ˆæœ¬å· 22
+android.os.Build.VERSION.RELEASE   ç³»ç»Ÿç‰ˆæœ¬å· 6.0
 android.os.Build.MANUFACTURER   360
