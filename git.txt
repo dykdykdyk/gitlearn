@@ -1,11 +1,14 @@
-git��Ŀ��ַ��QAQ
-�û�����18250 ���룺�㶮��
+git项目地址：QAQ
+用户名：18250 密码：你懂的
 
-�������writing :��һ�������git config --global http.postBuffer 524288000
+如果卡在writing :试一下这个：git config --global http.postBuffer 524288000
 
 git clone XX  
 
-����XXĿ¼�������޸�
+git config --global user.email "1825041608@qq.com"
+ git config --global user.name "dykdykdyk"
+
+进入XX目录：本地修改
 
 git status
 
@@ -18,10 +21,10 @@ git push
 
 https://github.com/dykdykdyk/CoapTest.git
 
-������е��ļ����ύ֮����gitԶ�ֿ̲����濴��������Ҫע�⿴һ�� .ignore
-������ǵ�һ���ύ����Ҫ git push origin master��
+如果是有的文件夹提交之后，在git远程仓库里面看不到，需要注意看一下 .ignore
+（如果是第一次提交，需要 git push origin master）
 
-����е�ʱ���ļ����ύ��ȥ֮�� ��Ϊ�ջ��߱���������ļ����г�ͻ����һ���ļ������� 
+如果有的时候文件夹提交上去之后 打开为空或者报红可能是文件名有冲突，换一个文件名试试 
 
 
 
