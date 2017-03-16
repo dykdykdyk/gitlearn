@@ -2,7 +2,7 @@
 cd hello 
 cordova platform add android(添加Android平台)
 
-
+ionic start myApp blank(生成名字为myApp的空项目)
 环境搭建：
 1.已经安装好了Android开发环境，已经安装了node.js 
 
