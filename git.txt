@@ -14,7 +14,9 @@ git add . (git add --all)
 
 git commit -m "first command"
 
-git push 
+git push (本地更新到远程)
+
+git pull(远程更新到本地)
 
 https://github.com/dykdykdyk/CoapTest.git
 
