@@ -28,3 +28,6 @@ https://github.com/dykdykdyk/CoapTest.git
 
 
 git merge origin/master 把远程代码合并到本地仓库，远程和本地的进行合并
+
+Android项目中，已经是git项目，需要把gen目录下的.gitignore,以及根目录下的.git两个文件夹删除，才可以
+正常提交。
