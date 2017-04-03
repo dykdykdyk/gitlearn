@@ -1,0 +1,2 @@
+4.3 今天看了下butterknife 和Androidannotations注解框架，只会了简单的使用
+4.4 明天预计看下数据存储方式 Handler机制和分析
