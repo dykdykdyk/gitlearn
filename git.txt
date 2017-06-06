@@ -1,6 +1,10 @@
 git项目地址：QAQ
 用户名：18250 密码：你懂的
 
+git config --global user.email "1825041608@qq.com"
+git config --global user.name "dykdyk"
+
+
 如果卡在writing :试一下这个：git config --global http.postBuffer 524288000
 
 git clone XX  
